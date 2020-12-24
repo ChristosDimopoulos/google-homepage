@@ -32,23 +32,37 @@
     margin: 20vh 0px 35px 0px;
 }
 
-.search-bar-and-buttons{
+.search-bar-and-buttons {
+    margin: 0px 32px 0px 32px;
+}
+
+form {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .search-bar {
-    width: 33%;
+    margin: auto;
+    justify-content: center;
+}
+
+#search-bar {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 44px;
+    width: 600px;
 }
 
 .buttons {
-    margin-top: 15px;
+    margin: 15px 0px 10px 0px;
     display: flex;
+    justify-content: space-between;
 }
-
 #search-button {
     margin-right: 10px;
-
 }
 
 body {
