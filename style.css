@@ -45,16 +45,33 @@ form {
 
 .search-bar {
     margin: auto;
-    justify-content: center;
-}
+    display: flex;
 
-#search-bar {
-    width: 100%;
     border: 1px solid gray;
     border-radius: 20px;
     height: 44px;
     width: 600px;
+    font-size: 16px;
 }
+
+.search-bar-spacer {
+    width: 30px;
+}
+.search-bar-input {
+    padding: 0px 20px;
+    display: flex;
+    flex: 1;
+}
+
+#search-bar {
+    /* border: 1px solid gray;
+    border-radius: 20px;
+    height: 44px;
+    width: 600px;
+    font-size: 16px; */
+    display: flex;
+    border-color: transparent;
+} 
 
 .buttons {
     margin: 15px 0px 10px 0px;
