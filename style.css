@@ -26,6 +26,10 @@
     text-decoration: none;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 .logo-div {
     display: flex; 
     justify-content: center;
@@ -47,11 +51,15 @@ form {
     margin: auto;
     display: flex;
 
-    border: 1px solid gray;
+    border: 1px solid hsl(0, 0%, 80%);
     border-radius: 20px;
     height: 44px;
     width: 600px;
     font-size: 16px;
+}
+.search-bar:hover {
+    box-shadow: 1px 1px 5px 1px hsl(0, 0%, 75%);
+
 }
 
 .search-bar-spacer {
