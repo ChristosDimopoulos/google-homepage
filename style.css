@@ -2,7 +2,7 @@
 .google-header ul {
     list-style-type: none;
     margin: 0;
-    padding: 5px;
+    padding: 6px 15px;
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -20,11 +20,18 @@
 
 .google-header ul li a{
     color: black;
-    margin: 0px 15px 0px 15px;
+    margin: 0px 13px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: lighter;
+    font-size: 12px;
+    font-weight: 400;
     text-decoration: none;
+}
+
+#options-button img{
+    height: auto;
+    width: 18px;
+    padding: 5px 13px 0px 0px;
+    /* transform: scale(0.3); */
 }
 
 .login-button button{
@@ -51,11 +58,11 @@ li:hover {
 .logo-div {
     display: flex; 
     justify-content: center;
-    margin: 20vh 0px 35px 0px;
+    margin: 17vh 0px 33px 0px;
 }
 
 .search-bar-and-buttons {
-    margin: 0px 32px 0px 32px;
+    margin: 0px 32px;
 }
 
 form {
@@ -94,7 +101,7 @@ form {
 } 
 
 .button-container {
-    margin: 15px 0px 10px 0px;
+    margin: 25px 0px 10px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -121,8 +128,11 @@ form {
 }
  
 footer {
+    position: absolute;
+    width: 100%;
     background-color: #f5f5f5;
     border-top: 1px solid #d1d1d1;
+    bottom: 0px;
 }
 
 footer ul {
@@ -136,7 +146,7 @@ footer ul {
 footer ul li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #3c4043;
+    color: #515355;
     margin: 0px 15px;
     text-decoration: none;
 }
@@ -145,4 +155,5 @@ footer ul li a {
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
